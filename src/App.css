@@ -1,38 +1,33 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* text-align: center; */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  background-image: linear-gradient(
+  330deg,
+  hsl(300deg 100% 83%) 1%,
+  hsl(295deg 100% 82%) 33%,
+  hsl(290deg 100% 82%) 42%,
+  hsl(284deg 100% 81%) 46%,
+  hsl(279deg 100% 81%) 49%,
+  hsl(275deg 98% 80%) 50%,
+  hsl(269deg 98% 79%) 51%,
+  hsl(265deg 98% 79%) 51%,
+  hsl(259deg 98% 78%) 51%,
+  hsl(254deg 98% 78%) 50%,
+  hsl(249deg 98% 77%) 50%,
+  hsl(244deg 98% 76%) 50%,
+  hsl(239deg 97% 76%) 49%,
+  hsl(234deg 97% 75%) 49%,
+  hsl(229deg 97% 75%) 49%,
+  hsl(224deg 97% 74%) 50%,
+  hsl(219deg 97% 73%) 51%,
+  hsl(214deg 97% 73%) 54%,
+  hsl(208deg 96% 72%) 58%,
+  hsl(203deg 96% 72%) 67%,
+  hsl(198deg 96% 71%) 99%
+);
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
